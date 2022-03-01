@@ -1,0 +1,160 @@
+body {
+    margin:0
+    
+}
+.header1 {
+    background:black;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo {
+    width:auto;
+    height:55px;
+    display:flex;
+    padding:8px;
+   
+}
+.links {
+    display:flex;
+    align-items:center;
+    list-style:none;
+    margin:0; 
+}
+.lnks {
+    background:#070471;
+    padding-top:28px;
+    padding-bottom:28px;
+    padding-left:10px;
+    padding-right:10px;
+    border-right:1px solid #05025b;
+    border-left:none;
+    border-top:none;
+    border-bottom:none;
+    width:105px;
+    font-style:italic;
+    font-size:105%;
+    font-weight:600;
+    color: #ebeaf2
+}
+.lnks:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.header2 {
+    background:gray;
+    color:white;
+    display:flex;
+}
+.title {
+    font:initial;
+    font-size: 80px;
+    margin-left: 40px;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+.subtitle {
+    font:initial;
+    font-size: 35px;
+    margin-left: 40px;
+    margin-bottom:20px;
+}
+.register {
+    display:flex;
+    margin-left: 40px;
+    margin-top:20px;
+    margin-bottom:20px;
+    border-radius:7px;
+    padding:7px;
+    width:86px;   
+}
+.emojis {
+    width:500px;
+    display:flex; 
+    margin-left:200px;
+    border: 1px solid black
+}
+.pt2 {
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+}
+.content {
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    margin-bottom:60px;
+   
+}
+.title2 {
+    font-size:50px;
+    display:flex;
+    justify-content:center;
+}
+.cont {
+    display:flex;
+    flex-direction:column;
+    max-width:600px;
+    align-items:center;
+}
+.text {
+    display:flex;
+    align-content:center;
+    font-size:25px;
+    margin-top:20px;
+}
+
+.quote {
+    padding:40px;
+    background:gray;
+}
+.txt {
+    font-size:30px;
+}
+.name {
+    padding-right:80px;
+    display:flex;
+    justify-content:flex-end;
+    font-size:25px;
+    font-weight:700;
+}
+.info {
+    background:#eee3e3;
+    padding:20px;
+    display:flex;
+    justify-content:center;
+}
+.square {
+  background: white;
+  width: 480px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  flex-direction:column;
+  gap: 8px;
+  padding: 16px;
+}
+.regis {
+  width:83px;
+  display:flex;
+  align-self:flex-end;
+  margin-right:25px;
+}
+.subs {
+  font-size:20px;
+  font-weight:600;
+  margin-left:10px;
+  margin-top:10px;
+}
+.txt2 {
+  font-size:17px;
+  font-weight:300;
+  margin-left:15px;
+}
+.feeter {
+  background:black;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+  font-weight:600;
+}
